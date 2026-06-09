@@ -83,5 +83,5 @@ Ensure you have MATLAB installed along with the following toolboxes:
 ### Step-by-Step Execution
 1. Clone this repository to your local directory:
    ```bash
-   git clone [https://github.com/your-username/your-repo-name.git](https://github.com/your-username/your-repo-name.git)
-   cd your-repo-name
+   git clone [https://github.com/hussain1549/icn-cache-simulator.git](https://github.com/hussain1549/icn-cache-simulator.git)
+   cd icn-cache-simulator
