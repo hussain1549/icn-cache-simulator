@@ -64,13 +64,25 @@ Below is an example of the benchmark visualization generated natively by the ana
 
 ---
 
-## 🚀 How to Run the MATLAB Simulator
+## 🚀 How to Run the Simulator
 
-### Prerequisites
-Ensure you have MATLAB installed along with the following toolboxes:
-* 5G Toolbox & 6G Exploration Library
-* SimEvents (for packet-level queues)
-* Reinforcement Learning Toolbox (optional, for advanced orchestration)
+Follow these steps to run the 6G-ICN Caching Simulator and generate the publication-ready comparative metrics dashboard.
+
+### 1. Prerequisites & Required Toolboxes
+Before executing the scripts, ensure you have **MATLAB (R2021a or newer)** installed along with the following toolboxes:
+* **5G Toolbox** (or the 6G Exploration Library) — For URLLC channel approximations.
+* **SimEvents** — For discrete-event packet queue and interest management.
+* **Reinforcement Learning Toolbox** — (Optional, used if expanding to adaptive pervasive orchestration).
+
+### 2. Verify Directory Setup
+Download or clone this repository. Ensure that all three core files are resting in the **same working directory/folder**. If the files are separated, MATLAB will throw an `Unrecognized function or variable` error.
+
+```text
+📁 Your-6G-ICN-Folder/
+│
+├── icn_cache_simulator.m          # Step 1: Core engine & workload generator
+├── IcnCacheEngine.m               # OO Class blueprint (Do not run directly)
+└── plot_icn_comparative_analysis.m # Step 2: Formal figures plotter
 
 ### Step-by-Step Execution
 1. Clone this repository to your local directory:
