@@ -94,3 +94,13 @@ title('ICN Framework: Average Delivery Latency');
 legend(algorithms, 'Location', 'best');
 
 fprintf('\nSimulation Completed Successfully.\n');
+
+% =========================================================================
+% MAKE SURE THIS EXACT BLOCK IS AT THE VERY END OF icn_cache_simulator.m
+% =========================================================================
+fprintf('\nSimulation Completed Successfully. Saving workspace...\n');
+
+% Save all calculated matrices to the file
+save('simulation_results.mat', 'cache_capacities', 'algorithms', 'hit_ratios', 'avg_latencies');
+
+fprintf('Data successfully stored in simulation_results.mat\n');
