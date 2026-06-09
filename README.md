@@ -77,6 +77,11 @@ Before executing the scripts, ensure you have **MATLAB (R2021a or newer)** insta
 ### 2. Verify Directory Setup
 Download or clone this repository. Ensure that all three core files are resting in the **same working directory/folder**. If the files are separated, MATLAB will throw an `Unrecognized function or variable` error.
 
+<p align="center">
+  <img src="icn_results_dashboard.png" width="850" alt="6G-ICN Caching Algorithm Performance Dashboard">
+</p>
+
+
 ```text
 📁 Your-6G-ICN-Folder/
 │
