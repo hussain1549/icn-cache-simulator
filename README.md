@@ -56,14 +56,6 @@ Below is an example of the benchmark visualization generated natively by the ana
 
 <p align="left">
   <img src="https://img.shields.io/badge/MATLAB-%23ED1C24.svg?style=for-the-badge&logo=MathWorks&logoColor=white" alt="MATLAB">
-  <img src="https://img.shields.io/badge/Simulink-%23ED1C24.svg?style=for-the-badge&logo=MathWorks&logoColor=white" alt="Simulink">
-  <img src="https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54" alt="Python">
-  <img src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black" alt="Linux">
-  <img src="https://img.shields.io/badge/c-%2300599C.svg?style=for-the-badge&logo=c&logoColor=white" alt="C">
-  <img src="https://img.shields.io/badge/c%2B%2B-%2300599C.svg?style=for-the-badge&logo=c%2B%2B&logoColor=white" alt="C++">
-  <img src="https://img.shields.io/badge/ns--3-007ACC?style=for-the-badge&logo=network-wired&logoColor=white" alt="ns-3">
-  <img src="https://img.shields.io/badge/OMNeT%2B%2B-2A4B7C?style=for-the-badge&logo=cisco&logoColor=white" alt="OMNeT++">
-  <img src="https://img.shields.io/badge/AI%20%2F%20ML-3F48CC?style=for-the-badge&logo=openai&logoColor=white" alt="AI/ML">
 </p>
 
 * **MATLAB & Simulink:** Used for 5G/6G physical layer link-level analysis, SimEvents packet queue modeling, and formal metric plotting.
